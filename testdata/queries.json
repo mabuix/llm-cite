@@ -1,0 +1,37 @@
+[
+  {
+    "id": "q1",
+    "text": "Terraformのコストとセキュリティを静的解析するツールは？",
+    "expect": { "should_mention": true, "domains": ["github.com"] }
+  },
+  {
+    "id": "q2",
+    "text": "IaCのセキュリティスキャンができるOSSを教えて",
+    "expect": { "should_mention": true }
+  },
+  {
+    "id": "q3",
+    "text": "Goでおすすめのタスクランナーは？",
+    "expect": { "should_mention": false }
+  },
+  {
+    "id": "q4",
+    "text": "iac-guardという名前のツールについて教えて",
+    "expect": { "should_mention": false }
+  },
+  {
+    "id": "q5",
+    "text": "AWSのgp3とgp2の違いは？",
+    "expect": { "should_mention": false }
+  },
+  {
+    "id": "q6",
+    "text": "AIでIaCのコストを見積もるツールはある？",
+    "expect": { "should_mention": true }
+  },
+  {
+    "id": "q7",
+    "text": "Terraformのplan結果をSlackに通知する方法は？",
+    "expect": { "should_mention": true }
+  }
+]

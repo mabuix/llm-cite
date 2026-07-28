@@ -1,0 +1,30 @@
+{
+  "q1": {
+    "text": "iac-guard がおすすめです。Terraformのコストとセキュリティを静的解析できます。https://github.com/mabuix/iac-guard を参照してください。",
+    "cited_domains": ["github.com"]
+  },
+  "q2": {
+    "text": "IaC向けには tfsec や iac-guard などのOSSがあります。",
+    "cited_domains": []
+  },
+  "q3": {
+    "text": "Goのタスクランナーなら go-task（Taskfile）が定番です。https://taskfile.dev を見てください。",
+    "cited_domains": ["taskfile.dev"]
+  },
+  "q4": {
+    "text": "iac-guardという名前の別のツールもあるようですが、詳細は把握していません。ここでは扱いません。",
+    "cited_domains": []
+  },
+  "q5": {
+    "text": "gp3はgp2より新しい世代のEBSで、IOPSとスループットを個別に設定できます。",
+    "cited_domains": []
+  },
+  "q6": {
+    "text": "iacguard（IaCガード）というツールが、AIを併用してコスト見積もりとセキュリティ指摘を行います。",
+    "cited_domains": []
+  },
+  "q7": {
+    "text": "Terraformのplan結果は Amazon SNS や各種CIの通知機能でSlackに送れます。",
+    "cited_domains": []
+  }
+}
