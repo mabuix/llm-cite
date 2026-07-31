@@ -53,6 +53,13 @@ func run(queriesPath, replayPath, providerNm, targetCSV, modelName string, asJSO
 		return err
 	}
 
+	// replay は実LLMを叩かない。数字が実計測と誤読されないよう明示する。
+	if strings.HasPrefix(p.Name(), "replay") {
+		fmt.Fprintln(os.Stderr,
+			"注: replay モードです。実LLMには問い合わせず、testdata の想定回答で判定・評価ロジックを自己テストしています。"+
+				"実際のGEO露出を計測するには -provider openai（要 OPENAI_API_KEY）を使ってください。")
+	}
+
 	ctx := context.Background()
 	answers := make([]model.Answer, 0, len(queries))
 	for _, q := range queries {
